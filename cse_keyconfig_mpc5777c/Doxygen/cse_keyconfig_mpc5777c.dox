@@ -1,0 +1,58 @@
+/*!
+    @page cse_keyconfig_mpc5777c_group CSE key configuration
+    @brief Basic application that presents basic usecases for the CSE driver
+    
+    @note <b>The user keys are non-volatile.</b> Once the key was loaded, in order to update it, the counter should be increased.
+    ## Application description ##
+    _____
+    The purpose of this demo application is to show the user how to use the Cryptographic Services Engine module from the MPC5777C MCU with the S32 SDK API.
+    
+    The implementation demonstrates the following:
+        - the enablement of the CSE module;
+        - configuring the MASTER_ECU key;
+        - configuring the first user key, using the MASTER_ECU key as an authorization;
+        - using the user key for an encryption.
+    In order to update the user key after they were configured using the example the user should increase the counter used for loading the key.
+    Erasing all the configured keys (including the MASTER_ECU key) can be done by changing the value of the ERASE_ALL_KEYS macro to 1.
+    ## Prerequisites ##
+    ______
+    To run the example you will need to have the following items:
+    - 1 MPC5777C board (416/516 DS)
+    - 1 Power Adapter 12V
+    - 1 Personal Computer
+    - 1 PEmicro Debugger
+    ## Boards supported ##
+    ______
+    The following boards are supported by this application:
+    - MPC57xx Motherboard + x-MPC5777C 416/516 DS Daughter Card
+    ## Hardware Wiring ##
+    ______
+    Project configures GPIOs 85 & 86 (PC21 & PC22 chip pins), which are routed to pad A pins 10 and 11, respectively, on the motherboard.
+    PA10 and PA11 pins on the motherboard must be connected to user LEDs 1 and 2 (P7).
+        PIN FUNCTION     |   MPC57xx-MB
+    ---------------------|--------------------
+         LED_1 (PA10)    |      P7.1
+         LED_2 (PA11)    |      P7.2
+    ## How to run ##
+    ______
+    #### 1. Importing the project into the workspace ####
+    After opening S32 Design Studio, go to \b File -> \b New \b S32DS \b Project \b From... and select \b cse_keyconfig_mpc5777c. Then click on \b Finish. \n
+    The project should now be copied into you current workspace.
+    #### 2. Generating the Processor Expert configuration ####
+    First go to \b Project \b Explorer View in S32 DS and select the current project(\b cse_keyconfig_mpc5777c). Then go to \b Project and click on \b Generate \b Processor \b Expert \b Code \n
+    Wait for the code generation to be completed before continuing to the next step.
+    #### 3. Building the project ####
+    Select the configuration to be built \b FLASH (Debug_FLASH) or \b RAM (Debug_RAM) by left clicking on the downward arrow corresponding to the \b build button(@image hammer.png).
+    Wait for the build action to be completed before continuing to the next step.
+    #### 4. Running the project ####
+    Go to \b Run and select \b Debug \b Configurations. There will be two debug configurations for this project:
+     Configuration Name | Description
+     -------------------|------------
+     \b cse_keyconfig_mpc5777c_debug_ram_pemicro | Debug the RAM configuration using PEMicro debuggers
+     \b cse_keyconfig_mpc5777c_debug_flash_pemicro | Debug the FLASH configuration using PEMicro debuggers
+    \n Select the desired debug configuration and click on \b Launch. Now the perspective will change to the \b Debug \b Perspective. \n
+    Use the controls to control the program flow.
+    \n If the key is correctly configured, led 2 (PA11) turns on, otherwise led 1 (PA10) turns on.
+    \n If the ERASE_ALL_KEYS macro is set and the keys are successfully deleted, led 1 (PA10) and led 2 (PA11) turn on.
+    @note For more detailed information related to S32 Design Studio usage please consult the available documentation.
+*/

@@ -1,0 +1,80 @@
+<CodeGenerationInfo>
+  <ToolchainSettings>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Includes</name>
+      <values lines_count="7">
+        <Line>"${S32_SDK_PATH}/platform/drivers/src/clock/MPC5777C"</Line>
+        <Line>"${S32_SDK_PATH}/rtos/osif/"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/common"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5777C/include"</Line>
+        <Line>"${S32_SDK_PATH}/platform/devices/MPC5777C/startup"</Line>
+        <Line>"${S32_SDK_PATH}/platform/drivers/inc"</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ToolChain_C_Compiler_Symbols</name>
+      <values lines_count="1">
+        <Line>CPU_MPC5777C</Line>
+      </values>
+    </option>
+    <option>
+      <name>PE_G_4PEx_ilg_gnuarmeclipse_managedbuild_cross_option_c_compiler_defs</name>
+      <values lines_count="1">
+        <Line>"CPU_MPC5777C_416"</Line>
+      </values>
+    </option>
+  </ToolchainSettings>
+  <GeneratedFilesList>
+    <GeneratedByPE>
+      <File Name="SDK/platform/drivers/src/pins/siu/pins_siu_driver.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.h" FileDate="2023-01-24, 17:26:51" FileAge="1674548811634" FileType="45637" CompNumb="30" />
+      <File Name="Project_Settings/Linker_Files/linker_flash.ld" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC5777C/cmu_hw_access.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/startup.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/clockMan1.c" FileDate="2023-01-24, 17:26:51" FileAge="1674548811631" FileType="45637" CompNumb="30" />
+      <File Name="SDK/platform/devices/callbacks.h" FileDate="2019-06-25, 04:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="SDK/platform/devices/common/s32_core_e200.h" FileDate="2019-06-25, 04:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/interrupt_vectors.S" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="Generated_Code/pin_mux.h" FileDate="2023-01-24, 17:26:51" FileAge="1674548811627" FileType="45637" CompNumb="27" />
+      <File Name="SDK/platform/drivers/src/interrupt/interrupt_manager_MPC57xx.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Sources/main.c" FileDate="2019-06-25, 04:48:54" FileAge="1561405734000" FileType="128" />
+      <File Name="Generated_Code/Cpu.h" FileDate="2023-01-24, 17:26:51" FileAge="1674548811613" FileType="45637" CompNumb="29" />
+      <File Name="Generated_Code/pin_mux.c" FileDate="2023-01-24, 17:26:51" FileAge="1674548811623" FileType="45637" CompNumb="27" />
+      <File Name="Generated_Code/Cpu.c" FileDate="2023-01-24, 17:26:51" FileAge="1674548811609" FileType="45637" CompNumb="29" />
+      <File Name="SDK/platform/devices/devassert.h" FileDate="2019-06-25, 04:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/cse/cse_hw_access.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC5777C/clock_MPC5777C.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/cse/cse_hw_access.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/status.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5777C/startup/system_MPC5777C.h" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC5777C/clock_MPC5777C.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5777C/include/MPC5777C.h" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5777C/startup/system_MPC5777C.c" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="Documentation/cse_keyconfig_mpc5777c.txt" FileDate="2023-01-24, 17:26:51" FileAge="1674548811676" FileType="3072" />
+      <File Name="Project_Settings/Linker_Files/linker_ram.ld" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/core0_intc_sw_handlers.S" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="Generated_Code/cse1.h" FileDate="2023-01-24, 17:26:51" FileAge="1674548811620" FileType="45637" CompNumb="32" />
+      <File Name="SDK/platform/drivers/inc/interrupt_manager.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Generated_Code/cse1.c" FileDate="2023-01-24, 17:26:51" FileAge="1674548811617" FileType="45637" CompNumb="32" />
+      <File Name="Documentation/cse_keyconfig_mpc5777c_Settings.xml" FileDate="2023-01-24, 17:26:51" FileAge="1674548811661" FileType="3072" />
+      <File Name="SDK/platform/devices/device_registers.h" FileDate="2019-06-25, 04:49:04" FileAge="1561405744000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/pins_driver.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC5777C/cs_hw_access.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/cse_driver.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siu/siu_hw_access.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/devices/MPC5777C/include/MPC5777C_features.h" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="SDK/platform/drivers/inc/clock_manager.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/rtos/osif/osif_baremetal.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="Project_Settings/Startup_Code/startup_MPC5777C.S" FileDate="2019-06-25, 04:49:08" FileAge="1561405748000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siu/siu_hw_access.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/cse/cse_driver.c" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/clock/MPC5777C/siu_hw_access.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+      <File Name="SDK/platform/drivers/src/pins/siu/pins_siu_driver.h" FileDate="2019-06-25, 04:49:10" FileAge="1561405750000" FileType="262144" />
+    </GeneratedByPE>
+  </GeneratedFilesList>
+  <CodeGenReference>2</CodeGenReference>
+</CodeGenerationInfo>

@@ -1,0 +1,2 @@
+This is an application created to show the configuration of non-volatile keys using the CSE module, an encryption example and also how to erase the keys.
+The example documentation can be found in the S32 SDK documentation at Examples and Demos section. (<SDK_PATH>/doc/Start_Here.html)
